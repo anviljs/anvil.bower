@@ -1,0 +1,18 @@
+{
+  "author": "Alex Robson <alex@sharplearningcurve.com> (http://sharplearningcurve.com)",
+  "name": "anvil.bower",
+  "description": "Bower support for anvil",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arobson/anvil.bower.git"
+  },
+  "engines": {
+    "node": "~0.8.3"
+  },
+  "main": "./lib/bower.js",
+  "devDependencies": { "anvil.js": "~0.8.5" },
+  "optionalDependencies": {},
+  "keywords": [ "anvil", "bower" ],
+  "requiredPlugins": [ "anvil.component" ]
+}
