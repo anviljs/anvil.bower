@@ -12,10 +12,9 @@
   },
   "main": "./lib/bower.js",
   "dependencies": {
-    "bower": "~0.1.2"
+    "bower": "~0.6"
   },
   "devDependencies": { "anvil.js": "~0.8.5" },
   "optionalDependencies": {},
-  "keywords": [ "anvil", "bower" ],
-  "requiredPlugins": [ "anvil.component" ]
+  "keywords": [ "anvil", "bower" ]
 }
