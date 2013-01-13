@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/src/nvm/v0.8.14/bin/node',
+1 verbose cli   '/src/nvm/v0.8.14/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose publish [ '.' ]
+5 verbose read json /git/js/anvil/anvil.bower/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/alex/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz
+14 verbose folder .
+15 info prepublish anvil.bower@0.0.3
+16 silly lockFile 3a50536e-6271-0-35606620949693024-tmp-tgz /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz
+17 verbose lock /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz /Users/alex/.npm/3a50536e-6271-0-35606620949693024-tmp-tgz.lock
+18 silly lockFile 3a50536e-6271-0-35606620949693024-tmp-tgz /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz
+19 verbose tar unpack /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/tmp.tgz
+20 silly lockFile 3dc57e19-6271-0-35606620949693024-package /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package
+21 verbose lock /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package /Users/alex/.npm/3dc57e19-6271-0-35606620949693024-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry lib/bower.js
+27 silly gunzTarPerm extractEntry LICENSE-GPL
+28 silly gunzTarPerm extractEntry LICENSE-MIT
+29 verbose read json /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package/package.json
+30 silly lockFile 3dc57e19-6271-0-35606620949693024-package /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package
+31 verbose from cache /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package/package.json
+32 verbose tar pack [ '/Users/alex/.npm/anvil.bower/0.0.3/package.tgz',
+32 verbose tar pack   '/var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package' ]
+33 verbose tarball /Users/alex/.npm/anvil.bower/0.0.3/package.tgz
+34 verbose folder /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-7848/1358118056271-0.35606620949693024/package
+35 silly lockFile 8162a803-pm-anvil-bower-0-0-3-package-tgz /Users/alex/.npm/anvil.bower/0.0.3/package.tgz
+36 verbose lock /Users/alex/.npm/anvil.bower/0.0.3/package.tgz /Users/alex/.npm/8162a803-pm-anvil-bower-0-0-3-package-tgz.lock
+37 silly lockFile 8162a803-pm-anvil-bower-0-0-3-package-tgz /Users/alex/.npm/anvil.bower/0.0.3/package.tgz
+38 silly lockFile f01210dd-ex-npm-anvil-bower-0-0-3-package /Users/alex/.npm/anvil.bower/0.0.3/package
+39 verbose lock /Users/alex/.npm/anvil.bower/0.0.3/package /Users/alex/.npm/f01210dd-ex-npm-anvil-bower-0-0-3-package.lock
+40 silly lockFile f01210dd-ex-npm-anvil-bower-0-0-3-package /Users/alex/.npm/anvil.bower/0.0.3/package
+41 verbose tar unpack /Users/alex/.npm/anvil.bower/0.0.3/package.tgz
+42 silly lockFile f01210dd-ex-npm-anvil-bower-0-0-3-package /Users/alex/.npm/anvil.bower/0.0.3/package
+43 verbose lock /Users/alex/.npm/anvil.bower/0.0.3/package /Users/alex/.npm/f01210dd-ex-npm-anvil-bower-0-0-3-package.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry lib/bower.js
+49 silly gunzTarPerm extractEntry LICENSE-GPL
+50 silly gunzTarPerm extractEntry LICENSE-MIT
+51 verbose read json /Users/alex/.npm/anvil.bower/0.0.3/package/package.json
+52 silly lockFile f01210dd-ex-npm-anvil-bower-0-0-3-package /Users/alex/.npm/anvil.bower/0.0.3/package
+53 silly shasum updated bytes 8829
+54 info shasum 49407f8c7ed1b3f8a29ab1c75742ff21ccd79cfe
+54 info shasum /Users/alex/.npm/anvil.bower/0.0.3/package.tgz
+55 verbose from cache /Users/alex/.npm/anvil.bower/0.0.3/package/package.json
+56 verbose chmod /Users/alex/.npm/anvil.bower/0.0.3/package.tgz 644
+57 verbose chown /Users/alex/.npm/anvil.bower/0.0.3/package.tgz [ 501, 20 ]
+58 silly lockFile 3a52ce78- .
+59 silly publish { author:
+59 silly publish    { name: 'Alex Robson',
+59 silly publish      email: 'alex@sharplearningcurve.com',
+59 silly publish      url: 'http://sharplearningcurve.com' },
+59 silly publish   name: 'anvil.bower',
+59 silly publish   description: 'Bower support for anvil',
+59 silly publish   version: '0.0.3',
+59 silly publish   repository: { type: 'git', url: 'git://github.com/arobson/anvil.bower.git' },
+59 silly publish   engines: { node: '~0.8.3' },
+59 silly publish   main: './lib/bower.js',
+59 silly publish   dependencies: { bower: '~0.6' },
+59 silly publish   devDependencies: { 'anvil.js': '~0.8.5' },
+59 silly publish   optionalDependencies: {},
+59 silly publish   keywords: [ 'anvil', 'bower' ],
+59 silly publish   readme: '## Anvil Bower Plugin\n\nAdds bower commands to anvil (somewhat redundant, you could just use bower...) and attempts to move resources from the package into package specific subfolders under ./ext in the output directory.\n\n### Warning\nBower and TJ Holowaychuck\'s Component tools are incompatible. If you\'re installing components using Holowaychuck\'s component, then pretty much all the bower commands break. This has nothing to do with anvil; please don\'t report the issue to me :)\n\n## Command Line\nReally the only advantage here is not having to have bower installed globally. To issue any command, you just type "anvil bower [command] [args]" and anvil will pass the task on.\n\n## Dependencies\nIf you want Anvil to auto-install your client dependencies, you can list them in your build file like this:\n\n```javascript\n{\n\t"anvil.bower": {\n\t\t"dependencies": [\n\t\t\t"backbone",\n\t\t\t"underscore"\n\t\t]\n\t}\n}\n\nThis extension will check for the presence of these packages before each build and ensure they\'ve been installed.\n\n## Problems\nUnfortunately not everyone follows the same conventions in their package.json or component.json files so there\'s no predictable way for anvil to know where to find the component\'s resources. If there\'s no folder under lib/ext for a component, it\'s because the author failed to specify; please feel free to let them know they\'re doing it wrong.\n\n## Installation\n\nanvil install anvil.bower',
+59 silly publish   readmeFilename: 'README.md',
+59 silly publish   _id: 'anvil.bower@0.0.3',
+59 silly publish   dist: { shasum: '49407f8c7ed1b3f8a29ab1c75742ff21ccd79cfe' } }
+60 verbose url raw anvil.bower
+61 verbose url resolving [ 'https://registry.npmjs.org/', './anvil.bower' ]
+62 verbose url resolved https://registry.npmjs.org/anvil.bower
+63 info trying registry request attempt 1 at 17:00:56
+64 http PUT https://registry.npmjs.org/anvil.bower
+65 http 409 https://registry.npmjs.org/anvil.bower
+66 verbose url raw anvil.bower
+67 verbose url resolving [ 'https://registry.npmjs.org/', './anvil.bower' ]
+68 verbose url resolved https://registry.npmjs.org/anvil.bower
+69 info trying registry request attempt 1 at 17:00:57
+70 http GET https://registry.npmjs.org/anvil.bower
+71 http 200 https://registry.npmjs.org/anvil.bower
+72 error publish fail Cannot publish over existing version.
+72 error publish fail Bump the 'version' field, set the --force flag, or
+72 error publish fail     npm unpublish 'anvil.bower@0.0.3'
+72 error publish fail and try again
+73 error System Darwin 12.2.0
+74 error command "/src/nvm/v0.8.14/bin/node" "/src/nvm/v0.8.14/bin/npm" "publish"
+75 error cwd /git/js/anvil/anvil.bower
+76 error node -v v0.8.14
+77 error npm -v 1.1.65
+78 error code EPUBLISHCONFLICT
+79 verbose exit [ 1, true ]

@@ -2,7 +2,7 @@
   "author": "Alex Robson <alex@sharplearningcurve.com> (http://sharplearningcurve.com)",
   "name": "anvil.bower",
   "description": "Bower support for anvil",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/arobson/anvil.bower.git"
