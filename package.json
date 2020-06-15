@@ -12,7 +12,7 @@
   },
   "main": "./lib/bower.js",
   "dependencies": {
-    "bower": "~0.6"
+    "bower": "~1.8"
   },
   "devDependencies": { "anvil.js": "~0.8.5" },
   "optionalDependencies": {},
